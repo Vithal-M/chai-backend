@@ -40,6 +40,3 @@ const app = express()
             throw err
         }
 })() */
-app.get("/", () => {
-  res.send('Homepage')
-});
